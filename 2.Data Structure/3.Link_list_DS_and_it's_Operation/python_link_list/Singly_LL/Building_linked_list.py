@@ -59,7 +59,16 @@ class LinkedList:
             self.head = new_node
         self.length += 1
         return True
-
+    def pop_first(self):
+        if self.length == 0:
+            return None
+        temp = self.head
+        self.head = self.head.next
+        temp.next = None
+        self.length -= 1
+        if self.length == 0:
+            self.tail = None
+        return temp
 
 
 
@@ -74,4 +83,7 @@ print("After pop operation")
 my_ll.print_list()
 my_ll.perpend(100)
 print("After perpend operation")
+my_ll.print_list()
+my_ll.pop_first()
+print("After pop first operation")
 my_ll.print_list()
