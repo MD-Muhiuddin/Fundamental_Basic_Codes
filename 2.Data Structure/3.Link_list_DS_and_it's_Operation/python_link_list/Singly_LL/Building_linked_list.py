@@ -49,6 +49,18 @@ class LinkedList:
         self.length -= 1
         return temp
 
+    def perpend(self, value):
+        new_node = Node(value)
+        if self.length == 0:
+            self.head = new_node
+            self.tail = new_node
+        else:
+            new_node.next = self.head
+            self.head = new_node
+        self.length += 1
+        return True
+
+
 
 
 
@@ -56,4 +68,10 @@ my_ll = LinkedList(4)
 my_ll.append(45)
 my_ll.append(34)
 my_ll.append(566)
+my_ll.print_list()
+my_ll.pop()
+print("After pop operation")
+my_ll.print_list()
+my_ll.perpend(100)
+print("After perpend operation")
 my_ll.print_list()
