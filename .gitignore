@@ -6,4 +6,4 @@
 *.o
 .pvenv
 .idea/
-.pyc
+*.pyc
