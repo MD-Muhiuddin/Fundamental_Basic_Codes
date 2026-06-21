@@ -4,6 +4,8 @@
 *.bin
 *.class
 *.o
+*.out
+a.out
 .pvenv
 .idea/
 *.pyc
