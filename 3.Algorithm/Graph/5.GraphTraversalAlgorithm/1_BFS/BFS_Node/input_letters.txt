@@ -1,0 +1,23 @@
+15 20
+a b c d e f g h i j k l m n o
+a b
+a c
+a d
+b e
+b f
+c g
+c h
+d i
+d j
+e k
+f k
+g l
+h l
+i m
+j m
+k n
+l n
+m n
+n o
+o a
+a
