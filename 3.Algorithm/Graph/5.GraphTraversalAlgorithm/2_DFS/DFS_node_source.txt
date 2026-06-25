@@ -1,0 +1,27 @@
+25 24
+a b c d e f g h i j k l m n o p q r s t u v w x y
+a b
+a c
+a d
+a e
+a f
+a g
+a h
+a i
+b t
+b u
+c q
+c p
+d j
+d k
+e x
+e y
+f r
+f s
+g v
+g w
+h l
+h m
+i n
+i o
+a
